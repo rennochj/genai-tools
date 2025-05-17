@@ -1,0 +1,15 @@
+{
+    "servers": {
+        // "weather-stdio": {
+        //     "command": "python3",
+        //     "args": [
+        //         "${workspaceFolder}/tools/weather/weather_stdio.py"
+        //     ],
+        //     "env": {}
+        // },
+        "mcp-weather-server": {
+            "type": "sse",
+            "url": "http://mars.local:8000/sse"
+        }
+    }
+}
